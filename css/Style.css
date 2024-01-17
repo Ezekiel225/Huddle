@@ -1,0 +1,329 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: hsl(192, 100%, 9%) !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins' !important;
+}
+
+.navbar {
+    padding: 1.5rem 1rem 0 1.5rem !important;
+}
+
+.first-cont {
+    text-align: center;
+    padding-top: 10%;
+}
+
+/* Container Divs */
+.sec-cont {
+    padding-bottom: 3rem !important;
+}
+.third-cont {
+    background: hsl(207, 100%, 98%);
+}
+
+.fourth-cont {
+    text-align: center;
+    padding: 15%;
+}
+
+.fifth-cont {
+    background: hsl(192, 100%, 9%);
+    color: #fff;
+}
+
+.social-div {
+    padding-top: 3rem !important;
+}
+
+/* Rows and Columns */
+.rows {
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.column {
+    padding-left: 25% !important;
+}
+
+.cols {
+    padding-left: 10% !important;
+}
+
+.columns {
+    padding: 10% 6% !important;
+}
+
+.sec-col {
+    padding: 7% !important;
+}
+
+.third-col {
+    padding: 7% !important;
+}
+
+/* Images, Background and Logos */
+.screen-mockups {
+    width: 65%;
+    display: block;
+    margin: 5rem auto 5rem auto !important;
+}
+
+.bg {
+    width: 100%;
+}
+
+.illustration {
+    width: 90%;
+}
+
+.sec-logo {
+    padding-bottom: 1rem !important;
+}
+
+/* Texts */
+.flow {
+    padding-left: 6% !important;
+}
+
+.paragraph {
+    padding: 0 32%;
+    margin-bottom: 2%;
+}
+
+.text {
+    display: block;
+    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'Open Sans' !important;
+}
+
+.text2 {
+    padding-bottom: 2% !important;
+}
+
+.sec-text {
+    padding-right: 30% !important;
+}
+
+.third-text {
+    padding-right: 20% !important;
+}
+
+.footer-heading {
+    padding-bottom: 1rem;
+    padding-top: 1rem !important;
+}
+
+.social-icon {
+    color: #fff !important;
+    margin: 10px !important;
+}
+
+.face {
+    margin-left: 0 !important;
+}
+
+/* Form */
+.input {
+    width: 70% !important;
+}
+
+.control {
+    padding-top: 1.5rem !important;
+}
+
+.form-control {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-right: 10px;
+    display: inline !important;
+}
+
+/* Icons */
+.social-icon:hover {
+    color: hsl(210, 67%, 76%) !important;
+}
+
+/* Buttons */
+.btn-danger {
+    background: hsl(322, 100%, 66%) !important;
+    border: none !important;
+    border-radius: 1.6rem !important;
+    padding: 0.5rem 3rem !important;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.btn-danger:hover {
+    background: hsl(321, 100%, 78%) !important;
+}
+
+.first-btn {
+    color: hsl(322, 100%, 66%) !important;
+    border-color: hsl(322, 100%, 66%) !important;
+    border-radius: 1.5rem !important;
+    padding: 0.3rem 1rem 0.3rem !important;
+}
+
+.first-btn:hover {
+    color: hsl(321, 100%, 78%) !important;
+    border-color: hsl(321, 100%, 78%) !important;
+    background: none !important;
+}
+
+.sec-btn {
+    width: 25%;
+    border-radius: 0.3rem !important;
+    background: hsl(322, 100%, 66%) !important;
+    border: none !important;
+    /* padding: 0.5rem 3rem !important; */
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    color: #fff;
+}
+
+.sec-btn:hover {
+    background: hsl(321, 100%, 78%) !important;
+}
+
+/* Media Query */
+@media (max-width: 1030px) {
+    .paragraph {
+        padding: 0 25% !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 890px) {
+    .first-heading {
+        padding: 0 15% !important;
+    }
+
+    .paragraph {
+        padding: 0 25% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .col-lg-6 {
+        padding: 7% 0 !important;
+    }
+
+    .column {
+        padding-left: 40% !important;
+    }
+
+    .cols {
+        padding-left: 40% !important;
+    }
+
+    .sec-col {
+        padding: 15% !important;
+    }
+
+    .third-col {
+        padding: 15% !important;
+    }
+
+    .columns {
+        padding: 5% 25% !important;
+        text-align: center;
+    }
+
+    .illustration {
+        padding-left: 7% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        padding: 0.5rem !important;
+    }
+
+    .fourth-cont {
+        padding: 35% 10% !important;
+    }
+
+    .col-lg-6 {
+        padding: 7% 0 !important;
+    }
+
+    .column {
+        padding-left: 25% !important;
+    }
+
+    .columns {
+        text-align: center;
+        padding: 5.5% !important;
+    }
+
+    .cols {
+        padding: 25% !important;
+    }
+
+    .sec-col {
+        padding: 15% 5.5% 10% !important;
+    }
+
+    .third-col {
+        padding: 15% 5.5% 10% !important;
+    }
+
+    .first-logo {
+        width: 39%;
+    }
+
+    .illustration {
+        width: 80%;
+        padding-left: 20% !important;
+    }
+
+    .screen-mockups {
+        width: 90% !important;
+    }
+
+    .first-heading {
+        font-size: 1.7rem !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        font-size: 4rem;
+    }
+
+    .paragraph {
+        padding: 0 5% !important;
+        text-align: center !important;
+        margin-bottom: 10% !important;
+    }
+    
+    .text2 {
+        padding: 0 5% 2% !important;
+    }
+
+    .sec-text {
+        padding-right: 0 !important;
+    }
+
+    .third-text {
+        padding-right: 0 !important;
+    }
+
+    .input {
+        width: 100% !important;
+    }
+
+    .first-btn {
+        padding: 0.15rem 1rem 0.15rem !important;
+        font-size: 12px !important;
+    }
+
+    .sec-btn {
+        margin: 20px !important;
+        margin-left: 50% !important;
+        border-radius: 0.3rem !important;
+        width: 50%;
+    }
+  }
